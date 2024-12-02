@@ -1,6 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 import pandas as pd
+import tensorflow_probability as tfp  # Ensure this import is included
 
 # Load the table data
 
